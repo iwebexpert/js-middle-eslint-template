@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Caveat';
+  src: url('../font/Caveat/Caveat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+$bg-color: #66ba7c;
+$page-color: #eeecec;
+$box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+
+
+body {
+  background-color: $bg-color;
+  font-family: 'Caveat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  // overflow: hidden;
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 768px;
+  background-color: $page-color;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img.main-img {
+  width: 108px;
+  margin-bottom: 25px;
+}
+
+.header {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.user-info {
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  margin: 25px auto;
+}
+
+.main-btn {
+  margin-top: 30px;
+  background-color: $bg-color;
+  color: $page-color;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 35px;
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
