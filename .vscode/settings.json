@@ -6,9 +6,9 @@
   // "eslint.run": "onType",
   // "[javascript]": {
   //   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  //   "editor.formatOnPaste": false, // required 
+  //   "editor.formatOnPaste": false, // required
   //   "editor.formatOnType": false, // required
-  //   "editor.formatOnSave": true, // optional 
+  //   "editor.formatOnSave": true, // optional
   //   "editor.formatOnSaveMode": "file", // required to format on save
   // },
 
@@ -20,21 +20,22 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact",
+    "typescriptreact"
   ],
   "eslint.rules.customizations": [
-    {"rule": "prettier/prettier", "severity": "info"}
+    { "rule": "prettier/prettier", "severity": "info" }
   ],
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnPaste": true,
     // "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": [ "source.fixAll.eslint" ],
+    "editor.codeActionsOnSave": ["source.fixAll.eslint"]
   },
 
   "workbench.colorCustomizations": {
     // "editorError.foreground": "#f90000",
     "editorInfo.foreground": "#15c804",
-    "editorWarning.foreground": "#fca80b",
+    "editorWarning.foreground": "#fca80b"
   },
+  "eslint.useFlatConfig": false
 }
