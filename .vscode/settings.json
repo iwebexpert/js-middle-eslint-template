@@ -37,5 +37,5 @@
     "editorInfo.foreground": "#15c804",
     "editorWarning.foreground": "#fca80b"
   },
-  "eslint.useFlatConfig": false
+  "eslint.useFlatConfig": true
 }
